@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         
-        stage('Run Script) {
+        stage('Run Script') {
             steps{
                 sh 'chmod +x ./example.sh'
                 sh './example.sh'
